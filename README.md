@@ -6,14 +6,9 @@
 
 -----
 
-```
-I don't want to work for nothing, that's why I expect to have a minimum community around the project. I want to update it regularly.
+- [Discord](https://vu.fr/rca-discord), [Telegram](https://t.me/OxTokens), [Guilded](https://www.guilded.gg/i/kamnG4Mk)
+- ⭐ 20 Starts = HCap ai solver.
 
-  - First release at 10 ⭐
-  - HCaptcha AI 20 ⭐
-  - discord: https://vu.fr/rca-discord
-```
-    
 -----
     
 - [X] **HCaptcha AI Solver**.
