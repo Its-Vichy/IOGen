@@ -2,7 +2,6 @@
 <p align='center'>
   <b>𝐴𝑛 𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙𝑙 𝑜𝑝𝑒𝑛-𝑠𝑜𝑢𝑟𝑐𝑒 𝑑𝑖𝑠𝑐𝑜𝑟𝑑 𝑡𝑜𝑘𝑒𝑛 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟.<b>
     <br>
-    <img src='https://media.discordapp.net/attachments/940550817960837160/943504955099185193/unknown.png?width=700&height=500'>
 </p>
 
 -----
@@ -11,8 +10,17 @@
 - First release at 10 ⭐
 - discord: https://vu.fr/rca-discord
 ```
+    
+-----
+    
+- [X] **HCaptcha AI Solver**.
+- [X] **Fingerprint evasion**.
+- [X] **Cloudfare cookies bypass**.
 
 -----
+<p align='center'>
+   <img src='https://media.discordapp.net/attachments/940550817960837160/943504955099185193/unknown.png?width=700&height=500'>
+</p>
 
 <p align="center"> 
     <b>Informations</b><br>
