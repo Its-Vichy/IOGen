@@ -17,9 +17,7 @@ class Console:
     @staticmethod
     def printf(content: str):
         lock.acquire()
-        print(content.replace('[+]', f'[{Fore.LIGHTGREEN_EX}+{Fore.RESET}]').replace('[*]',
-                                                                                     f'[{Fore.LIGHTYELLOW_EX}*{Fore.RESET}]').replace(
-            '[>]', f'[{Fore.CYAN}>{Fore.RESET}]').replace('[-]', f'[{Fore.RED}-{Fore.RESET}]'))
+        print(content.replace('[+]', f'[{Fore.LIGHTGREEN_EX}+{Fore.RESET}]').replace('[*]', f'[{Fore.LIGHTYELLOW_EX}*{Fore.RESET}]').replace('[>]', f'[{Fore.CYAN}>{Fore.RESET}]').replace('[-]', f'[{Fore.RED}-{Fore.RESET}]'))
         lock.release()
 
     @staticmethod
@@ -30,9 +28,7 @@ class Console:
             time.sleep(1)
             work_token_min = round(Console._generated / ((time.time() - start_time) / 60))
             all_token_min = round(Console._generated + Console._locked / ((time.time() - start_time) / 60))
-            os.system(
-                f'title [0xGen - 0xVichy#1234 - Private] Generated: {Console._generated} - Verified: {Console._verified} - Locked: {Console._locked} - ProxyErr: {Console._proxy_err} | Workers: [Captcha: {Console._cap_worker} Verification: {Console._mail_worker} Total: {config["threads"]}] | W.T/M: {work_token_min} - Ttl.T/M: {all_token_min} | Debug: {config["debug"]}'.replace(
-                    '|', '^|'))
+            os.system(f'title [IOGen - github.com/its-vichy] Generated: {Console._generated} - Verified: {Console._verified} - Locked: {Console._locked} - ProxyErr: {Console._proxy_err} | Workers: [Captcha: {Console._cap_worker} Verification: {Console._mail_worker} Total: {config["threads"]}] | W.T/M: {work_token_min} - Ttl.T/M: {all_token_min} | Debug: {config["debug"]}'.replace('|', '^|'))
 
     @staticmethod
     def key_bind_thread():
