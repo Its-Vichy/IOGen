@@ -1,0 +1,9 @@
+{
+    "captcha_api": "anti-captcha.com",
+    "captcha_key": "",
+
+    "debug": true,
+    "threads": 1,
+
+    "invite_code": ""
+}
