@@ -13,7 +13,8 @@
 
 - Why not full src?
     *I am in the process of rewriting the entire code I put it on the repo as I go*
-    
+
+Email verif etc.. soon just add ⭐ <3
 -----
     
 - [X] **Updated after each patch**.
