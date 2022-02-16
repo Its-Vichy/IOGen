@@ -7,7 +7,6 @@
 -----
 
 - [Discord](https://vu.fr/rca-discord), [Telegram](https://t.me/OxTokens), [Guilded](https://www.guilded.gg/i/kamnG4Mk)
-- ⭐ 25 Starts = HCap ai solver.
 - If you whant to contribute just made a pull req.
 
 -----
