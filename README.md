@@ -11,6 +11,11 @@
 - If you whant to contribute just made a pull req.
 
 -----
+
+- Why not full src?
+    *I am in the process of rewriting the entire code I put it on the repo as I go*
+    
+-----
     
 - [X] **Updated after each patch**.
 - [X] **HCaptcha AI Solver**.
