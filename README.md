@@ -27,6 +27,14 @@
 
 ⭐ Leave a Star and subscribe to my github.
 ```
+```
+🚧 If you need my services as a paid developer, do not hesitate to contact me :)
+
+💸 Gift <3
+BTC: bc1q0592qckkc5z9ah3r7t0yhg7u35fcwadf3ruxc7
+LTC: LNgVWfVbCwhGAQtKAiMSip3XMPPuz8RTV4
+ETH: 0xf0723DB8720283735290BCa39A361428582a86b0
+```
 <p align="center"> 
     <b>Informations</b><br>
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Its-Vichy/IOGen?style=social">
