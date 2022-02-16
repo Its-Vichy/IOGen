@@ -13,6 +13,13 @@
 ◾ HCaptcha AI Solver.
 ```
 ```
+◾ How to setup?
+  - For the moment, it's just a part of the generator because of the complete rewriting of the code.
+ 
+◾ How to fix a generator?
+  - Don't forget that your browser is just a graphical interface, just copy to the letter what it does and deam you have a generator that works !
+```
+```
 🎈 Support me:
   - Youtube: https://www.youtube.com/channel/UCJ5zjgqaVkX7VRmoJE6nNeA
   - Discord: https://vu.fr/rca-discord.
@@ -20,7 +27,6 @@
 
 ⭐ Leave a Star and subscribe to my github.
 ```
-
 <p align="center"> 
     <b>Informations</b><br>
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Its-Vichy/IOGen?style=social">
