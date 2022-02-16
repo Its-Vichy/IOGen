@@ -7,8 +7,11 @@
 -----
 
 ```
-- First release at 10 ⭐
-- discord: https://vu.fr/rca-discord
+I don't want to work for nothing, that's why I expect to have a minimum community around the project. I want to update it regularly.
+
+  - First release at 10 ⭐
+  - HCaptcha AI 20 ⭐
+  - discord: https://vu.fr/rca-discord
 ```
     
 -----
