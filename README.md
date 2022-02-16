@@ -8,9 +8,11 @@
 
 - [Discord](https://vu.fr/rca-discord), [Telegram](https://t.me/OxTokens), [Guilded](https://www.guilded.gg/i/kamnG4Mk)
 - ⭐ 20 Starts = HCap ai solver.
+- If you whant to contribute just made a pull req.
 
 -----
     
+- [X] **Updated after each patch**.
 - [X] **HCaptcha AI Solver**.
 - [X] **Fingerprint evasion**.
 - [X] **Cloudfare cookies bypass**.
