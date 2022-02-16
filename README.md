@@ -1,31 +1,25 @@
-<h1 align="center">IOGenerator</h1>
-<p align='center'>
-  <b>𝐴𝑛 𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙𝑙 𝑜𝑝𝑒𝑛-𝑠𝑜𝑢𝑟𝑐𝑒 𝑑𝑖𝑠𝑐𝑜𝑟𝑑 𝑡𝑜𝑘𝑒𝑛 𝑔𝑒𝑛𝑒𝑟𝑎𝑡𝑜𝑟.<b>
-    <br>
-</p>
+```
 
------
+  _____ ____   _____            
+ |_   _/ __ \ / ____|           
+   | || |  | | |  __  ___ _ __  
+   | || |  | | | |_ |/ _ \ '_ \ 
+  _| || |__| | |__| |  __/ | | |
+ |_____\____/ \_____|\___|_| |_| Open source discord token generator.
+```
+```
+◾ Fingerprint & Headers evasion.
+◾ Cloudfare cookies bypass.
+◾ HCaptcha AI Solver.
+```
+```
+🎈 Support me:
+  - Youtube: https://www.youtube.com/channel/UCJ5zjgqaVkX7VRmoJE6nNeA
+  - Discord: https://vu.fr/rca-discord.
+  - Telegram: https://t.me/OxTokens.
 
-- [Discord](https://vu.fr/rca-discord), [Telegram](https://t.me/OxTokens), [Guilded](https://www.guilded.gg/i/kamnG4Mk)
-- If you whant to contribute just made a pull req.
-
------
-
-- Why not full src?
-    *I am in the process of rewriting the entire code I put it on the repo as I go*
-
-Email verif etc.. soon just add ⭐ <3
------
-    
-- [X] **Updated after each patch**.
-- [X] **HCaptcha AI Solver**.
-- [X] **Fingerprint evasion**.
-- [X] **Cloudfare cookies bypass**.
-
------
-<p align='center'>
-   <img src='https://media.discordapp.net/attachments/940550817960837160/943504955099185193/unknown.png?width=700&height=500'>
-</p>
+⭐ Leave a Star and subscribe to my github.
+```
 
 <p align="center"> 
     <b>Informations</b><br>
