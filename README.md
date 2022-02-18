@@ -11,13 +11,20 @@
 ◾ Fingerprint & Headers evasion.
 ◾ Cloudfare cookies bypass.
 ◾ HCaptcha AI Solver.
+◾ Keybind.
 ```
 ```
+◾ How to use keybind?
+  - UP = more thread
+  - DOWN  = Less thread
+  - LEFT  = Enable debugger
+  - RIGHT = Disable debugger
+
 ◾ How to setup?
   - For the moment, it's just a part of the generator because of the complete rewriting of the code.
  
 ◾ How to fix a generator?
-  - Don't forget that your browser is just a graphical interface, just copy to the letter what it does and deam you have a generator that works !
+  - Don't forget that your browser is just a graphical interface, just copy to the letter what it does and deam you have a generator
 ```
 ```
 🎈 Support me:
