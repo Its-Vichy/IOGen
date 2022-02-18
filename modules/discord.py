@@ -1,4 +1,6 @@
 import base64, json, websocket, time, threading, re, httpx
+import random
+import string
 from urllib.request import Request, urlopen
 
 config = json.load(open('./config.json'))
@@ -20,7 +22,26 @@ class Payload:
             "invite": config['invite_code']
         }
 
+    @staticmethod
+    def ott() -> dict:
+        return {'type': 'landing'}
+
 class DiscordApi:
+    """
+    Todo: Automatic headers fix (content-length reset, cookies etc..)
+    """
+
+    """
+    Idk if discord really need this but i never see this shit before.
+    """
+    @staticmethod
+    def submit_trackers(client: httpx.Client) -> None:
+        payload = Payload.ott()
+
+        client.headers['content-length'] = str(len(json.dumps(payload)))
+        client.post('https://discord.com/api/v9/track/ott', json=payload)
+        client.headers.pop('content-length')
+
     @staticmethod
     def get_build_number() -> str:
         asset = re.compile(r'([a-zA-z0-9]+)\.js', re.I).findall((urlopen(Request(f'https://discord.com/app', headers={'User-Agent': 'Mozilla/5.0'})).read()).decode('utf-8'))[-1]
@@ -73,10 +94,11 @@ class DiscordApi:
 
     @staticmethod
     def register(client: httpx.Client, captcha_key: str, build_num: str) -> str:
-        payload = Payload.simple_register('UwU1337feefef', client.headers['x-fingerprint'], captcha_key)
+        payload = Payload.simple_register(f'IoGen-{"".join(random.choice(string.ascii_lowercase+string.digits) for _ in range(10))}', client.headers['x-fingerprint'], captcha_key)
 
         client.headers['x-track' if config["invite_code"] == '' else 'x-super-properties'] = DiscordApi.get_trackers(0 if config["invite_code"] == '' else build_num, True if config["invite_code"] == '' else False)
         client.headers['content-length'] = str(len(json.dumps(payload)))
+        #client.headers.pop('content-length')
         client.headers['referer'] = f'https://discord.com/invite/{config["invite_code"]}' if config["invite_code"] != '' else ''
 
         if config['invite_code'] != '':
@@ -126,7 +148,7 @@ class DiscordWs(threading.Thread):
             "d": {
                 "token": self.token,
                 "capabilities": 253,
-                "properties": DiscordApi.get_super_properties(False),
+                "properties": DiscordApi.get_trackers(0, False, False),
                 "presence": {
                     "status": "online",
                     "since": 0,

@@ -1,4 +1,5 @@
 from modules.cloudfare import Cloudfare
+from modules.discord import DiscordApi
 import httpx
 
 class HttpSession:
@@ -38,3 +39,5 @@ class HttpSession:
 
         self.http_client.headers['x-fingerprint'] = response.json()['fingerprint']
         self.http_client.headers['cookie'] = f'__dcfduid={__dcfduid}; __sdcfduid={__sdcfduid}; locale=fr; __cf_bm={__cf_bm}'
+
+        DiscordApi.submit_trackers(self.http_client)

@@ -11,7 +11,7 @@ class Console:
     def debug(content: str):
         if config['debug']:
             lock.acquire()
-            print(f'{Fore.LIGHTMAGENTA_EX}[DEBUG] {content}{Fore.RESET}')
+            print(f'[DEBUG] {content}{Fore.RESET}'.replace('[+]', f'[{Fore.LIGHTGREEN_EX}+{Fore.RESET}]').replace('[*]', f'[{Fore.LIGHTYELLOW_EX}*{Fore.RESET}]').replace('[>]', f'[{Fore.CYAN}>{Fore.RESET}]').replace('[-]', f'[{Fore.RED}-{Fore.RESET}]'))
             lock.release()
 
     @staticmethod
