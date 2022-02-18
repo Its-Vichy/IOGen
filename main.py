@@ -50,11 +50,8 @@ def worker():
 if __name__ == '__main__':
     Console.print_logo()
 
-    """
-    Todo: why this thread block console ?
-    """
-    #threading.Thread(target=Console.key_bind_thread()).start()
-    #threading.Thread(target=Console.title_thread()).start()
+    threading.Thread(target=Console.key_bind_thread).start()
+    threading.Thread(target=Console.title_thread).start()
 
 
     """
