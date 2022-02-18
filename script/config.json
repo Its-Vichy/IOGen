@@ -2,6 +2,7 @@
     "captcha_api": "anti-captcha.com",
     "captcha_key": "",
 
+    "image_size": 256,
     "debug": true,
     "threads": 1,
 
