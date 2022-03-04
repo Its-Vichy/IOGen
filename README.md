@@ -35,7 +35,23 @@
 ⭐ Leave a Star and subscribe to my github.
 ```
 ```
-🚧 If you need my services as a paid developer, do not hesitate to contact me :)
+✅ Freelance paid developer service
+
+➬ Most Knowledge in the discord api.
+➬ I can do custom tools / participate to your project.
+
+- Language:
+ ⤳ Python.
+ ⤳ Golang.
+ ⤳ Csharp.
+ ⤳ Javascript - nodejs-framework.
+
+› You can see my public job on my github.
+
+➬ Contact me to cop :p or ask your questions
+› This is my job, so I am available all day (GMT+2), send me a private message on Telegram for any request.
+
+- Link in my readme.
 
 💸 Gift <3
 BTC: bc1q0592qckkc5z9ah3r7t0yhg7u35fcwadf3ruxc7
